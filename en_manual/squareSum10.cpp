@@ -7,10 +7,10 @@
 
 int main ()
 {
-
-    int sum = rng::accumulate(rng::view::ints(1, rng::unreachable)
-                       | rng::view::transform([](int i){return i*i;})
-                       | rng::view::take(10), 0);
+    namespace view = std::view;
+    int sum = rng::accumulate(view::ints(1, rng::unreachable)
+                       | view::transform([](int i){return i*i;})
+                       | view::take(10), 0);
 
     std::cout << "sum of accumulate: " << sum << "\n";
 
