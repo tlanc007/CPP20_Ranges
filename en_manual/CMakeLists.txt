@@ -9,3 +9,5 @@ add_exe(predicate_remove predicate_remove.cpp)
 add_exe(squareSum10 squareSum10.cpp)
 add_exe(rangeComprehension rangeComprehension.cpp)
 add_exe(mutatingContainerData mutatingContainerData.cpp)
+# add_exe(customRangesFacade customRangesFacade.cpp) not part of 20
+add_exe(adaptorUnary adaptorUnary.cpp)
