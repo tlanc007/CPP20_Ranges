@@ -1,3 +1,9 @@
+/*
+    Filter a container using a predicate and transform it
+
+    https://ericniebler.github.io/range-v3/
+*/
+
 #include <vector>
 
 #include <range/v3/all.hpp> // get everything
@@ -13,4 +19,5 @@ int main ()
                   | view::transform([](int i){return std::to_string(i);});
 
     printRng(rng);
+    // rng == {"2","4","6","8","10"};
 }

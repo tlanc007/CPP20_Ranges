@@ -1,3 +1,7 @@
+/*
+    Generate an infinite list of integers starting at 1, square them, take the first 10, and sum them.
+    https://ericniebler.github.io/range-v3/
+*/
 
 #include <ranges>
 
@@ -13,5 +17,5 @@ int main ()
                        | view::take(10), 0);
 
     std::cout << "sum of accumulate: " << sum << "\n";
-
+    // sum of accumulate: 385
 }
