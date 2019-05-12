@@ -7,3 +7,4 @@ link_directories(/usr/local/lib)
 
 add_exe(predicate_remove predicate_remove.cpp)
 add_exe(squareSum10 squareSum10.cpp)
+add_exe(rangeComprehension rangeComprehension.cpp)
