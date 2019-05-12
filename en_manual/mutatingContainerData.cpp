@@ -11,8 +11,7 @@
 #include "printUtil.hpp"
 
 namespace view = std::view;
-
-using namespace ranges;
+namespace action = rng::action;
 
 std::vector <int> read_data ()
 {
