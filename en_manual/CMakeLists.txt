@@ -11,3 +11,5 @@ add_exe(rangeComprehension rangeComprehension.cpp)
 add_exe(mutatingContainerData mutatingContainerData.cpp)
 # add_exe(customRangesFacade customRangesFacade.cpp) not part of 20
 add_exe(adaptorUnary adaptorUnary.cpp)
+# add_exe(customIteratorRandomAccess customIteratorRandomAccess.cpp) // doesn't compile
+add_exe(hello hello.cpp)
