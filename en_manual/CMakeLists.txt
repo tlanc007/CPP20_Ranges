@@ -14,3 +14,4 @@ add_exe(adaptorUnary adaptorUnary.cpp)
 # add_exe(customIteratorRandomAccess customIteratorRandomAccess.cpp) doesn't compile
 add_exe(hello hello.cpp)
 add_exe(anyAllNoneOf anyAllNoneOf.cpp)
+add_exe(count count.cpp)
