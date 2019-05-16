@@ -15,10 +15,6 @@
 
 #include "rangeNamespace.hpp"
 
-namespace view = std::view;
-namespace action = rng::action;
-
-
 auto print = [](int i) { std::cout << i << ' '; };
 
 int main()

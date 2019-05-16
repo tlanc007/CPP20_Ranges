@@ -13,9 +13,6 @@
 
 #include "rangeNamespace.hpp"
 
-namespace view = std::view;
-namespace action = rng::action;
-
 auto is_six = [](int i) -> bool { return i == 6; };
 
 int main()
