@@ -1,4 +1,5 @@
-#Background
+
+# Background
 last updated: 5/18/19
 
 *(NOTE: This is still a "Work in Progress".  We are still on the bleeding edge. Things will evolve as we have compilers that fully support C++20.* 
@@ -8,7 +9,7 @@ last updated: 5/18/19
 
 In anticpation of C++20 Ranges, this repository contains a compilation of examples that should work for Ranges as they are defined in C++20.
 
-#Dependency
+# Dependency
 This repository uses the [Range-v3](https://github.com/ericniebler/range-v3) library, specifically the v1.0-beta branch.  The CMake configuration will pull this down when CMake is run.
 
 # -fconcepts
