@@ -4,11 +4,13 @@
     https://ericniebler.github.io/range-v3/
 */
 
+#include <iostream>
+#include <ranges>
 #include <vector>
 
-#include <range/v3/all.hpp> // get everything
+#include "rangeNamespace.hpp"
 
-#include "printUtil.hpp"
+namespace view = std::view;
 
 int main ()
 {
@@ -18,6 +20,7 @@ int main ()
     auto rng = vi | view::remove_if([](int i){return i % 2 == 1;})
                   | view::transform([](int i){return std::to_string(i);});
 
-    printRng(rng);
+    std::cout << rng::view::all (vi);
+    std::cout << "\n";
     // rng == {"2","4","6","8","10"};
 }
