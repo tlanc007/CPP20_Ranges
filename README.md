@@ -1,4 +1,3 @@
-
 # Background
 last updated: 5/18/19
 
@@ -15,7 +14,9 @@ This repository uses the [Range-v3](https://github.com/ericniebler/range-v3) lib
 # -fconcepts
 Although, one can use Ranges without concepts, I feel this is an important part of what Ranges provides and feel that this feature should be taken advantage of in C++20.  This means, for the time being, the only compiler and version that can use concepts is **GCC-8.3**.  Go to the *Compiler Status* section for more information.
 
-#Compiler Status
+The CMake config uses the `-fconcepts` compiler option when compiling.
+
+# Compiler Status
 *(I don't have a MS Compiler so I am not able to provide any first hand information on it.  As such only GNU C++ and Clang++ will be commented on here)*
 
 Via Eric's [Range library](https://github.com/ericniebler/range-v3), we have had access to Ranges for sometime.  In anticipation of Ranges as they are defined for C++20, the following key components are needed, **Ranges** and **Concepts**.  To make full use of these as stated for C++20, to date, there is only one option: GNU C++ 8.3.  This is the only compiler that has functioning Concepts.
@@ -28,6 +29,14 @@ Until we have a C++-20 library, I am using [range-v3](https://github.com/ericnie
 | GNU/G++  | 9.1     | broken   | concepts has issues |
 |Clang/llvm|  x      | Not implemented yet       | waiting |
 
+## GCC-9.1 concepts issue
+### Update GCC-9.1 workaround
+*19-May-19*
+There was a workaround, for the GNU-9.1 issue, that was placed into the range-v3 library. 
+
+```See Hannes Hauswedell:    [FIX] workaround bug in gcc9+fconcepts 2019-05-10.```
+
+### Original issue
 **G++-9**, something happened between 8.3 and 9 that broke some `Concepts` used by Ranges.  Currently G++-9 can be used without the *-fconcepts* options, if one really wanted. An example of the issue with G++-9, is with the en_manual/hello.cpp example:
 
 ```
@@ -38,5 +47,5 @@ range-v3/include/range/v3/range/concepts.hpp:66:28: internal compiler error: in 
 
 **Clang/LLVM** doesn't have Conepts implemented yet.
 
-#License
+# License
 While this repo is using the MIT license.  There are examples, that have come from other sources, that may be more restrictive.  In those cases, I have provided links to where they came from and you should consult the specific licensing for those cases.
