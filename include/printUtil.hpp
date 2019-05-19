@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include <range/v3/all.hpp> // get everything
+#include <ranges>
 
 //include <fmt/printf.h>
 
@@ -14,5 +14,14 @@ void printRng (auto rng)
         //fmt::print ("{} ", e);
     }
     //fmt::print("\n");
+    std::cout << "\n";
+}
+
+void printPairs (auto rng)
+{
+
+    for (const auto& e: rng) {
+        std::cout << "{" << e.first << ", " << e.second << "}\n";
+    }
     std::cout << "\n";
 }
