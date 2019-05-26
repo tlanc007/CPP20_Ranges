@@ -5,6 +5,7 @@ add_exe(03_filterView 03_filterView.cpp)
 add_exe(04_takeView 04_takeView.cpp)
 add_exe(06_filterViewEvens 06_filterViewEvens)
 add_exe(07_for_each_drop_while 07_for_each_drop_while.cpp)
+add_exe(08_projection_sort 08_projection_sort.cpp)
 
 # Boost dependent examples
 # Assuming BOOST_ROOT is defined
