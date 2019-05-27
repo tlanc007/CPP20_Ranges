@@ -17,6 +17,7 @@ add_exe(15_copyIf 15_copyIf.cpp)
 add_exe(17_filterTransform 17_filterTransform.cpp)
 add_exe(18_filterTransformTrace 18_filterTransformTrace.cpp)
 #add_exe(20_spanReverse 20_spanReverse.cpp) # need std::span support
+add_exe(21_iotaOverview 21_iotaOverview.cpp)
 
 # Boost dependent examples
 # Assuming BOOST_ROOT is defined
