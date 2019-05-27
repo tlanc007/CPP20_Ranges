@@ -9,6 +9,7 @@ add_exe(08_projection_sort 08_projection_sort.cpp)
 add_exe(09_string 09_string.cpp)
 add_exe(10_countIsSorted 10_countIsSorted.cpp)
 add_exe(11_findIif 11_findIif.cpp)
+add_exe(12_sort 12_sort.cpp)
 
 # Boost dependent examples
 # Assuming BOOST_ROOT is defined
