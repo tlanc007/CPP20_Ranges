@@ -22,6 +22,7 @@ add_exe(22_iotaTake 22_iotaTake.cpp)
 add_exe(23_stringJoin 23_stringJoin.cpp)
 add_exe(24_emptyVew 24_emptyVew.cpp)
 add_exe(25_singleView 25_singleView.cpp)
+add_exe(26_splitView 26_splitView.cpp)
 
 # Boost dependent examples
 # Assuming BOOST_ROOT is defined
