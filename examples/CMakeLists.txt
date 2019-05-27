@@ -20,6 +20,7 @@ add_exe(18_filterTransformTrace 18_filterTransformTrace.cpp)
 add_exe(21_iotaOverview 21_iotaOverview.cpp)
 add_exe(22_iotaTake 22_iotaTake.cpp)
 add_exe(23_stringJoin 23_stringJoin.cpp)
+add_exe(24_emptyVew 24_emptyVew.cpp)
 
 # Boost dependent examples
 # Assuming BOOST_ROOT is defined
