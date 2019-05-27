@@ -15,6 +15,7 @@ add_exe(14_minmaxElement 14_minmaxElement.cpp)
 add_exe(15_copyIf 15_copyIf.cpp)
 #add_exe(16_shifts 16_shifts.cpp) #doesn't compile not in 20 yet
 add_exe(17_filterTransform 17_filterTransform.cpp)
+add_exe(18_filterTransformTrace 18_filterTransformTrace.cpp)
 
 # Boost dependent examples
 # Assuming BOOST_ROOT is defined
