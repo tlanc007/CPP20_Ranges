@@ -12,6 +12,7 @@ add_exe(11_findIif 11_findIif.cpp)
 add_exe(12_sort 12_sort.cpp)
 add_exe(13_minmax 13_minmax.cpp)
 add_exe(14_minmaxElement 14_minmaxElement.cpp)
+add_exe(15_copyIf 15_copyIf.cpp)
 
 # Boost dependent examples
 # Assuming BOOST_ROOT is defined
