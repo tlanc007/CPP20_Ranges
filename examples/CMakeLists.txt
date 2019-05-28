@@ -26,6 +26,7 @@ add_exe(26_splitView 26_splitView.cpp)
 add_exe(27_reverseView 27_reverseView.cpp)
 add_exe(28_reverseViewString 28_reverseViewString.cpp)
 add_exe(29_transformView 29_transformView.cpp)
+add_exe(30_dropWhile 30_dropWhile.cpp)
 
 # Boost dependent examples
 # Assuming BOOST_ROOT is defined
