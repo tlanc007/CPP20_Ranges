@@ -18,9 +18,10 @@ int main()
     auto is_even = [](int i) { return i % 2 == 0; };
     auto print   = [](int i) { std::cout << i << " "; };
 
-    auto after_leading_evens =
-        view::drop_while(v, is_even) |
-        view::take(2);
+    auto after_leading_evens {
+        view::drop_while(view::all(v), is_even) |
+        view::take(2)
+    };
 
     //execute
     rng::for_each(after_leading_evens, print);  //prints-> 3 4
