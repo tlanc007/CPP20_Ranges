@@ -16,5 +16,6 @@ function(add_exe EXENAME FIRSTSOURCE)
     target_include_directories(${EXENAME} PUBLIC ${CMAKE_SOURCE_DIR}/include)
 endfunction(add_exe)
 
-add_subdirectory(try)
+#add_subdirectory(try)
 add_subdirectory(en_manual)
+add_subdirectory(JeffGCPPNow2019)
