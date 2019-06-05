@@ -3,6 +3,7 @@
     https://ericniebler.github.io/range-v3/
 */
 
+#include <iostream>
 #include <ranges>
 
 #include "rangeNamespace.hpp"
