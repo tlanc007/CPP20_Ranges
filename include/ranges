@@ -1,4 +1,0 @@
-#pragma once
-
-// mimic new header for C++20
-#include <range/v3/all.hpp>
